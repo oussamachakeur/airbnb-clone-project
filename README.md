@@ -1,6 +1,8 @@
 # airbnb-clone-project
 
-#👥 Team Roles
+#👥 Team-Roles
+
+
 🧠 Project Manager
 Responsible for overseeing the entire project lifecycle, setting timelines, coordinating tasks between team members, ensuring milestones are met, and maintaining communication with stakeholders.
 
@@ -22,7 +24,9 @@ Manages the deployment pipeline, automates infrastructure, and maintains continu
 📝 Technical Writer
 Prepares and maintains project documentation including user manuals, API references, and technical specs to ensure clarity for both developers and users.
 
-#🧰 Technology Stack
+#🧰 Technology-Stack
+
+
 ⚙️ Django
 A high-level Python web framework used to build secure, scalable, and maintainable web applications. In this project, Django handles backend development, including creating RESTful APIs, managing user authentication, and business logic.
 
