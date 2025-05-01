@@ -222,5 +222,96 @@ Docker: Creates consistent, isolated environments for testing and deployment.
 
 Heroku / Vercel / AWS (optional): Used for hosting and automatic deployment after successful pipeline execution.
 
+#🎨 UI/UX Design Planning
 
 
+✨ Design Goals
+Create a clean, intuitive interface that allows users to browse, book, and manage properties effortlessly.
+
+Ensure responsive design for optimal viewing on desktop, tablet, and mobile devices.
+
+Minimize user friction during booking and payment processes.
+
+Provide clear visual cues and consistent design patterns to guide users.
+
+📌 Key Features to Implement
+Search and filtering capabilities on the homepage
+
+Interactive property cards with pricing and location preview
+
+User-friendly navigation bar with login/signup options
+
+Review and rating display for each property
+
+Smooth checkout process with booking summary and confirmation
+
+
+
+# 🎨 UI/UX Design Planning
+
+
+(Continued)
+
+🎨 Color Styles (from Figma)
+Primary Color: #FF5A5F – used for buttons, highlights, and active elements
+
+Secondary Color: #767676 – used for secondary text and muted UI elements
+
+Background Color: #FFFFFF – used for the main background
+
+Card Background: #F7F7F7 – used for property cards and containers
+
+Accent Color: #00A699 – used for confirmation messages and tags
+
+🔤 Typography
+Element	Font Family	Font Weight	Font Size
+Headings	Inter	Bold	24–32px
+Subheadings	Inter	Semi-Bold	18–24px
+Body Text	Inter	Regular	14–16px
+Buttons	Inter	Medium	14px
+Captions	Inter	Regular	12px
+
+🧠 Importance of Identifying Design Properties
+Understanding the design properties of a Figma mockup—like color styles and typography—is essential for maintaining consistency throughout the application. It ensures that developers implement the UI exactly as intended, improving visual coherence and the overall user experience. Additionally, a well-documented design system speeds up collaboration between designers and developers, reduces miscommunication, and allows for faster prototyping and iteration.
+
+
+##👥 Project Roles and Responsibilities
+
+
+A successful project requires clearly defined roles to ensure accountability, coordination, and progress across all phases of development.
+
+Role	Responsibilities
+👨‍💼 Project Manager	Oversees the overall progress of the project, ensures deadlines are met, manages team coordination, and communicates between stakeholders and the development team.
+🧑‍💻 Frontend Developers	Responsible for implementing the user interface using frameworks like React or Next.js. They ensure responsiveness, accessibility, and alignment with UI/UX designs.
+🛠️ Backend Developers	Build the server-side logic, APIs, and integrate with databases using technologies such as Django or Node.js. They focus on performance, scalability, and security.
+🎨 Designers	Create wireframes, mockups, and design assets in Figma. They define the visual language, typography, color palette, and layout to ensure a smooth and appealing user experience.
+🧪 QA/Testers	Develop test cases, perform manual and automated testing, and ensure that the application is bug-free and meets the acceptance criteria.
+⚙️ DevOps Engineers	Set up CI/CD pipelines, manage deployments using Docker or cloud platforms, and monitor system uptime and performance.
+🧑‍💼 Product Owner	Represents the stakeholders, defines and prioritizes product features, maintains the product backlog, and ensures the development team delivers value to the users.
+📋 Scrum Master	Facilitates agile ceremonies (standups, sprints, retrospectives), removes roadblocks for the team, and ensures the team follows agile best practices.
+
+
+
+#🧩 UI Component Patterns
+
+
+To build a consistent and modular interface for the Airbnb Clone, we will follow reusable UI component patterns. These components will be styled to align with the Figma mockups and improve maintainability and scalability of the codebase.
+
+🔧 Planned Components
+🔝 Navbar
+A responsive navigation bar that includes the logo, search bar, and user controls (login/signup, profile icon). It will be sticky and adapt for mobile views.
+
+🏡 Property Card
+A reusable card component that displays property details such as an image, title, location, rating, and price per night. Used on the home and search results pages.
+
+🦶 Footer
+A footer component with links to pages like About, Contact, Terms of Service, and social media. It will remain at the bottom and be consistent across all pages.
+
+🔍 Search Bar
+A dynamic search input that allows users to filter properties by location, date, and guest count.
+
+📅 Booking Form
+A form component for selecting check-in/check-out dates, guest numbers, and initiating the booking process.
+
+🧾 Checkout Summary Card
+A sidebar or popup card component displaying booking details, total price, and call-to-action to confirm booking.
